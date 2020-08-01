@@ -1,0 +1,134 @@
+/**************************** TAG MODIFIERS *************************************/
+div{
+  background-color: #e4f9f5;
+}
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Scheherazade', serif;
+}
+h1{
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #217D68;
+  font-size: 80px;
+}
+h1::selection{
+  background: #E0EBE8;
+  color: #545454;
+}
+h2::selection{
+  background: #E0EBE8;
+  color: #545454;
+}
+h3::selection{
+  background: #E0EBE8;
+  color: #545454;
+}
+p::selection{
+  background: #E0EBE8;
+  color: #545454;
+}
+img::selection{
+  background: #E0EBE8;
+  color: #545454;
+}
+h2{
+  font-family: 'Advent Pro', sans-serif;
+  color: #217D68;
+  font-size: 40px;
+}
+h3{
+  font-family: 'Advent Pro', sans-serif;
+  color: #217D68;
+}
+p{
+  font-family: 'Advent Pro', sans-serif;
+  color: #545454;
+  font-size: 20px;
+}
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  width: 7%;
+  border-color: rgb(189, 189, 189);
+  border-width: 7px;
+}
+table{
+  display: inline-block;
+  padding: 20px;
+}
+a{
+  font-family: 'Advent Pro', sans-serif;
+  color: #217D68;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+a:hover{
+  color: #545454;
+}
+/**************************** CLASS MODIFIERS ***********************************/
+.top-container{
+  background-color: #E0EBE8;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+.bottom-container{
+  height:250px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  display: block;
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:50px;
+  display: block;
+}
+.ui-design{
+  width: 150px;
+}
+.mountain{
+  position: relative;
+  top:12px;
+  margin-top: 70px;
+}
+.propic{
+  margin-top: 50px;
+}
+.h2-hello{
+  margin: 15px auto 15px auto;
+}
+.profile{
+  background-color: white;
+}
+.skills{
+  background-color: white;
+}
+.skill-row{
+  background-color: white;
+}
+.middle-container{
+  background-color: white;
+}
+.im{
+  margin-top: 80px;
+}
+.hello-text{
+  display: inline-block;
+  width:350px;
+  margin-top: 0px;
+}
+.programemer{
+  font-size: 20px;
+}
+/**************************** PSEUDO CLASS MODIFIERS ****************************/
+/**************************** ID MODIFIERS **************************************/
